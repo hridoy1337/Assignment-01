@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 98px;
+    background-color: bisque;
+    align-items:center;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap:24px
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li:hover{
+}
+nav ul li a{
+    text-decoration: none;
+    color: #575757;
+}
+.btn{
+    width: 188px;
+    height: 48px;
+    font-weight: bold;
+    color: #fff;
+    background: #1D4ED8;
+    border: none;
+    border-radius: 10px;
+}
+.Hero-background{
+    height: 100vh;
+    background-image: url(./assets/banner.jpg);
+    /* background: linear-gradient(rgb(0 0 0 / 28%), rgb(0 0 0 / 35%)), url(assets/banner.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    opacity: 0.1;
+    height: 786px;
+    width: 100%;
+    background-color: #000;
+    z-index: 1;
+}
+.Hero-Section-Main{
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+}
