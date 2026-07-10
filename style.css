@@ -27,8 +27,7 @@ nav ul{
 nav ul li{
     list-style: none;
 }
-nav ul li:hover{
-}
+/* nav ul li:hover{} */
 nav ul li a{
     text-decoration: none;
     color: #575757;
@@ -129,7 +128,6 @@ button{
     color:#575757;
 }
 /* Package Section */
-.Package-container{}
 .Package-Heading{
     text-align: center;
     margin-top: 100px;
@@ -164,6 +162,7 @@ button{
     transition: all 0.5s ease;
 }
 .Package-Items hr{
+    border: 1px solid #e5e7eb;
 }
 .Package-Items h3{
     color:#888888;
@@ -205,6 +204,9 @@ button{
 .Package-Items:nth-child(2) h2{
     color: #fff;
 }
+.Package-Items:nth-child(2) hr{
+    border: 1px solid #e5e7eb1A;
+}
 .Package-Items:nth-child(2) p{
     color: rgba(255, 255, 255, 0.5);
 }
@@ -215,7 +217,7 @@ button{
 /* AI Generated CSS START*/
 .dc26-help-section{
     max-width:1320px;
-    margin:130px auto;
+    margin:100px auto;
     padding:0 20px;
 }
 
@@ -345,11 +347,12 @@ footer hr{
     padding: 25px 0px 20px 25px;
 }
 .Footer-first .left-logo img{
-    
+    width: 100%;
 }
 .Footer-first .right-social{
     display: flex;
     align-items: center;
+    padding: 25px 20px 20px 25px;
 }
 .Footer-first .right-social a{
     color: #1D4ED8;
@@ -364,7 +367,7 @@ footer hr{
     padding: 25px 0px 20px 25px;
 }
 .Footer-second .right-privacy{
-    padding: 25px 0px 20px 25px;
+    padding: 25px 20px 20px 25px;
 }
 .Footer-second .right-privacy a{
     text-decoration: none;
