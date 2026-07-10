@@ -17,6 +17,7 @@ nav{
     margin: 0 auto;
     height: 98px;
     align-items:center;
+    overflow: hidden;
 }
 nav ul{
     display: flex;
@@ -75,7 +76,7 @@ nav ul li a{
     color: rgba(255, 255, 255, 0.8999999761581421);
     font-size: 21px;
     font-weight: 400;
-    padding: 20px 300px;
+    padding: 2% 20%;
 
 }
 .Hero-Section-Main .btn{
@@ -96,7 +97,8 @@ button{
 }
 .PhotoSection{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(644px, 1fr));
 }
 .Card{
     border-radius: 5px;
