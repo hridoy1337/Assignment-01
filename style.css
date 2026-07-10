@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
 .container{
@@ -16,7 +16,6 @@ nav{
     justify-content: space-between;
     margin: 0 auto;
     height: 98px;
-    background-color: bisque;
     align-items:center;
 }
 nav ul{
@@ -43,7 +42,7 @@ nav ul li a{
     border-radius: 10px;
 }
 .Hero-background{
-    height: 100vh;
+    height: 786px;
     background-image: url(./assets/banner.jpg);
     /* background: linear-gradient(rgb(0 0 0 / 28%), rgb(0 0 0 / 35%)), url(assets/banner.jpg); */
     background-repeat: no-repeat;
@@ -63,4 +62,70 @@ nav ul li a{
     height: 100vh;
     position: relative;
     z-index: 2;
+    text-align: center;
+}
+.Hero-Section-Main h1{
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: -3.2px;
+    color: #fff;
+    padding-top: 136px;
+}
+.Hero-Section-Main p{
+    color: rgba(255, 255, 255, 0.8999999761581421);
+    font-size: 21px;
+    font-weight: 400;
+    padding: 20px 300px;
+
+}
+.Hero-Section-Main .btn{
+    font-size: 18px;
+    width: 260px;
+    height: 59px;
+}
+.Hero-btn-second{
+    position: relative;
+    bottom: -30%;
+}
+button{
+    cursor: pointer;
+}
+.Card img{
+    width: 642px;
+    height: 324px;
+}
+.PhotoSection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.Card{
+    border-radius: 5px;
+    width: 644px;
+    height: 460px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.PhotoHeading{
+    text-align: center;
+    padding: 50px 0px 35px 0px;
+}
+.Card h4{
+    color: #2563eb;
+}
+.Card h4{
+    color: #2563eb;
+    font-weight: 700;
+    font-size: 14px;
+}
+.PhotoSection-Inner{
+    padding: 20px;
+    line-height: 1.7;
+}
+.Card p{
+    color:#575757;
+}
+.Card img{
+    border-radius: 6px 6px 0px 0px;
+    width: 100%;
 }
