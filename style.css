@@ -53,7 +53,7 @@ nav ul li a{
 }
 .overlay{
     position: absolute;
-    opacity: 0.1;
+    opacity: 0.2;
     height: 786px;
     width: 100%;
     background-color: #000;
@@ -85,15 +85,15 @@ nav ul li a{
     height: 59px;
 }
 .Hero-btn-second{
-    position: relative;
-    bottom: -30%;
+    margin-top: 270px;
 }
 button{
     cursor: pointer;
 }
 .Card img{
-    width: 642px;
+    width: 100%;
     height: 324px;
+    border-radius: 6px 6px 0px 0px;
 }
 .PhotoSection{
     display: grid;
@@ -106,6 +106,7 @@ button{
     height: 460px;
     border: 1px solid #e5e7eb;
     border-radius: 6px;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 .PhotoHeading{
@@ -127,7 +128,202 @@ button{
 .Card p{
     color:#575757;
 }
-.Card img{
-    border-radius: 6px 6px 0px 0px;
+/* Package Section */
+.Package-container{}
+.Package-Heading{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    line-height: 1.50;
+}
+.Package-Heading h1{
+    font-size: 48px;
+    color: #0d1b2a;
+}
+.Package-Heading p{
+    font-size: 16px;
+    color: #575757;
+}
+
+.Package-Items-Container{
+    display: flex;
+    justify-content: space-between;
+}
+.Package-Items{
+    border: 2px solid #e5e7ebFF;
+    border-radius: 12px;
+    padding: 32px;
+    height: auto;
+    width: 100%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.Package-Items:hover{
+    box-shadow: 0px 0px 19px #bfb7b7;
+    transition: all 0.5s ease;
+}
+.Package-Items hr{
+}
+.Package-Items h3{
+    color:#888888;
+    font-size: 13px;
+}
+.Package-Items h2{
+    color: #0d1b2a;
+    font-size: 44px;
+}
+.Package-Items p{
+    color:#888888;
+    padding-bottom: 20px;
+    font-size: 13px;
+}
+.Package-Items ul{
+    padding: 20px 0px 20px 20px;
+}
+.Package-Items ul li{
+    line-height: 2.5;
+}
+.Package-Items ul li::marker{
+    color: #2563eb;
+}
+.Package-Items button{
+    background: transparent;
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    font-weight: 600;
+    font-size: 16px;
     width: 100%;
 }
+.Package-Items:nth-child(2) .btn{
+    background: #1D4ED8;
+    color: #fff;
+}
+.Package-Items:nth-child(2) h3{
+    color: #93c5fd;
+}
+.Package-Items:nth-child(2) h2{
+    color: #fff;
+}
+.Package-Items:nth-child(2) p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.Package-Items-Container>.Package-Items:nth-child(2){
+    background: #0d1b2a;
+    color: #ffffffCC;
+}
+/* AI Generated CSS START*/
+.dc26-help-section{
+    max-width:1320px;
+    margin:130px auto;
+    padding:0 20px;
+}
+
+.dc26-help-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.dc26-help-badge{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:50px;
+    background:rgba(37,99,235,.12);
+    color:#2563eb;
+    font-weight:600;
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.dc26-help-header h2{
+    font-size:48px;
+    color:#0d1b2a;
+    margin-bottom:18px;
+}
+
+.dc26-help-header p{
+    max-width:650px;
+    margin:auto;
+    color:#0d1b2a;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.dc26-help-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:22px;
+}
+
+.dc26-help-card{
+    background:#0d1b2a;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    transition:.3s;
+}
+
+.dc26-help-card:hover{
+    border-color:#2563eb;
+    transform:translateY(-4px);
+}
+
+.dc26-help-card summary{
+    list-style:none;
+    cursor:pointer;
+    padding:22px 28px;
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+    position:relative;
+}
+
+.dc26-help-card summary::-webkit-details-marker{
+    display:none;
+}
+
+.dc26-help-card summary::after{
+    content:"+";
+    position:absolute;
+    right:28px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:30px;
+    color:#2563eb;
+}
+
+.dc26-help-card[open] summary::after{
+    content:"−";
+}
+
+.dc26-help-card p{
+    padding:0 28px 24px;
+    color:#fff;
+    line-height:1.8;
+}
+
+.dc26-help-bottom{
+    margin-top:70px;
+    text-align:center;
+}
+
+.dc26-help-bottom p{
+    color:#0d1b2a;
+    margin-bottom:25px;
+    font-size:18px;
+}
+
+.dc26-help-btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563eb;
+    color:#fff;
+    padding:16px 38px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.dc26-help-btn:hover{
+    background:#1D4ED8;
+}
+/* AI Generated CSS END*/
